@@ -17,6 +17,7 @@ html, body{
 }
 
 .counter{
+    box-shadow: 10px 5px 5px black;
     border-radius: 20px;
     padding-top: 20px;
     text-align: center;
@@ -30,4 +31,11 @@ html, body{
 }
 h1{
     padding-bottom: 50px;
+}
+#galo{
+    margin-top: 13px;
+    display: block;
+}
+#galoDoido{
+    width: 40px;
 }

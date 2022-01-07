@@ -25,11 +25,11 @@ html, body{
     width: 200px;
     background-color: rgb(255, 255, 255);
     position: absolute;
-    left: 50%;
+    left: 25%;
     top: 50%;
     transform: translate(-50%, -50%);
 }
-h1{
+h2{
     padding-bottom: 50px;
 }
 #galo{
@@ -38,4 +38,30 @@ h1{
 }
 #galoDoido{
     width: 40px;
+}
+.to-do-list {
+    padding-top: 20px;
+    padding-left: 10px;
+    box-shadow: 10px 5px 5px black;
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: 500px;
+    top: 50%;
+    border-radius: 20px;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.form-switch{
+    padding-left:0!important; 
+}
+
+.form-check .form-check-input {
+    float: none !important;
+}
+.form-control{
+    width: 210px!important;
+    display: unset!important;
 }

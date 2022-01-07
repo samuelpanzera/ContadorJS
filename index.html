@@ -7,14 +7,39 @@
     <title>0</title>
     <link rel="shortcut icon" href="img/1_Circle_Home.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
     <script defer src="script.js"></script>
 </head>
 <body>
     
-  <div class="mrv ">
+  <div class="mrv">
+      <div class="to-do-list">
+          <div class="form-check form-switch">
+            <h2>Tarefas</h2>
+            
+                <div class="form-floating mb-3">
+                  <input type="email" class="form-control form-control" id="floatingInput" placeholder="Ler um livro">
+                  <label for="floatingInput">Digite aqui</label>
+                  <button>submit</button>
+                </div>
+           
+
+            
+            
+          </div>
+          <div class="form-check form-switch">
+              <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+              <label class="form-check-label" for="flexSwitchCheckDefault">Default switch checkbox input</label>
+          </div>
+          
+          <div class="form-check form-switch">
+            <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+            <label class="form-check-label" for="flexSwitchCheckDefault">Default switch checkbox input</label>
+          </div>
+          
+      </div>
       <div class="counter">   
-            <h1>Contador</h1>      
+            <h2>Contador</h2>      
             <div>
               <button class="down btn btn-danger" onclick="decrement()">-</button>
               <span id="currentNumber">0</span>
